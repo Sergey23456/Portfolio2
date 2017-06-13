@@ -1,0 +1,249 @@
+html,body{
+  font-size: 16px;
+  background-color: #c8d7d4;
+}
+.main{
+  display: inline-block;
+  margin: 0px 10%;
+}
+.verticalCard{
+  vertical-align: top;
+  display: inline-block;
+  width: 350px;
+  height: 570px;
+  padding-top: 50px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 10px 10px 10px 10px;
+}
+.circle{
+  background-color: #a9b6b4;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  margin: 0 auto;
+}
+.firstName{
+  margin: 50px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  font-family:'Open Sans', sans-serif, 700;
+}
+.textMin{
+  margin: 0 auto;
+  width: 200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.750em;
+  color: #a9b6b4;
+  text-align: center;
+}
+
+.social a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  transition: 0.5s all;
+  margin: 0px 13px;
+}
+a:hover{
+  color:#afa376;
+}
+.social{
+  letter-spacing: -5px;
+  text-align: center;
+  width: 100%;
+  margin: 50px 0px;
+}
+.socialM{
+  display: inline-block;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  margin: 0px 13px;
+  text-align: center;
+}
+.fb{
+  background-image: url("img/fb.jpg");
+}
+.tw{
+  background-image: url("img/tw.jpg");
+}
+.dr{
+  background-image: url("img/dr.jpg");
+}
+.be{
+  background-image: url("img/be.jpg");
+}
+
+.horizontalCard{
+  vertical-align: top;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  width: 800px;
+  height: 360px;
+  background-color: white;
+}
+.leftSide{
+  vertical-align: top;
+  display: inline-block;
+  width: 360px;
+  padding-top: 50px;
+}
+.rightSide{
+  display: inline-block;
+  width: 290px;
+  text-align: left;
+}
+.firstNameRight{
+  margin: 80px 0px 50px 0px;
+}
+.textMinRight{
+  width: 100%;
+  margin: 0px;
+}
+.textMinRight, .firstNameRight{
+  text-align: left;
+}
+.discription{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  width: 350px;
+  height: 570px;
+  padding: 50px;
+  background-color: white;
+  box-sizing: border-box;
+}
+.note{
+  width: 250px;
+}
+.diskr{
+}
+.article{
+  font-family:'Open Sans', sans-serif, 700;
+  font-style: 700;
+  font-size: 22px;
+  padding: 25px 0px;
+}
+.textD{
+  padding: 25px 0px;
+  width: 200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #a9b6b4;
+}
+.autor{
+}
+.statistic{
+  padding: 50px;
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  height: 435px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 10px 10px 10px 10px;
+}
+.anotherP{
+  opacity: 0.3;
+  margin-left: 0px;
+}
+.graphic{
+  margin-top: 40px;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;;
+  background-image: url("img/graphic.jpg");
+}
+.imageCard{
+  display: inline-block;
+  width: 989px;
+  height: 989px;
+  background-color: white;
+  vertical-align: top;
+  margin: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+.horImg{
+  width: 989px;
+  height: 659px;
+  background-image: url("img/cards.jpg");
+}
+.lineHorCard{
+  width: 770px;
+  height: 150px;
+  margin: 105px;
+  letter-spacing : -.36em;
+}
+.collineHorCard{
+  display: inline-block;
+  width: 200px;
+  letter-spacing : normal;;
+  font-size: 0.750em;
+
+}
+.col2{
+  margin: 0px 85px;
+}
+.leftalign{
+  text-align: left;
+  margin: 0px 0px 30px 0px;
+}
+
+
+
+
+
+
+.mywork, .loadmore{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  height: 290px;
+  width: 290px;
+  background-color: #FFF;
+  vertical-align: top;
+}
+.mywork{
+  background-color: #afa376;
+}
+
+
+
+
+
+.menu{
+  vertical-align: top;
+  display: inline-block;
+  width: 1200px;
+  height: 100px;
+  background-color: #FFF;
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+
+
+.cardThomson{
+  padding-top: 50px;
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  height: 530px;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+.textThomson{
+  font-size: 12px;
+}
+.tags{
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  height: 440px;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+}
