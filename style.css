@@ -250,6 +250,7 @@ a:hover{
 
 
 .mega{
+  vertical-align: top;
   display: inline-block;
   width: 660px;
   height: 275px;
@@ -289,4 +290,54 @@ border-color: transparent transparent #ffffff transparent;
   display: inline-block;
   padding-top: 35px;
   text-align: left;
+}
+
+
+
+
+
+
+ul {
+   margin-left: 0; /* Отступ слева в браузере IE и Opera */
+   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+  }
+
+
+.footerDark{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  width: 1000px;
+  height: 335px;
+  background-color: #27282d;
+}
+.nameList{
+  vertical-align: top;
+  list-style-type: none;
+  display: inline-block;
+  width: 240px;
+  height: 190px;
+
+}
+.nameListFooter{
+  list-style-type: none;
+  display: inline-block;
+
+  height: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  border-bottom: solid 2px white;
+  margin-bottom: 50px;
+}
+
+ul.footerMenu{
+  width: 730px;
+  margin-top: 90px;
+  margin-left: 135px;
+}
+.textListFooter{
+  width: 80%;
+  height: 100px;
+  color: #a9b6b4;
+  font-size: 16px;
 }
