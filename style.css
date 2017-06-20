@@ -357,9 +357,72 @@ ul.footerMenu{
 }
 .square{
   display:block;
-  width: 100%;
+  width: 355px;
   height: 355px;
+  box-sizing: border-box;
 }
 .squareColor{
   background-color: #d3dfdc;
+}
+.squareGrey{
+  background-color: grey;
+}
+.squareWhite{
+  background-color: #FFF;
+}
+.marg{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.numBefore::before {
+    content: "";
+    overflow: hidden;
+    display: block;
+
+}
+
+.number{
+  position: relative;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  color: #afa376;
+
+  display: flex;
+  /*align-items: top;* для выравнивания по высоте*/
+  justify-content: center;
+
+  margin: 65px 0px 60px 0px;
+}
+
+.headName{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:3px;
+
+  display: flex;
+  /*align-items: top;* для выравнивания по высоте*/
+  justify-content: center;
+
+  margin-bottom: 45px
+}
+
+.read{
+  width: 85px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 14px 27px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: #afa376;
+
+
+  border: 1px solid #afa376;
+
 }
