@@ -213,14 +213,14 @@ a:hover{
 
 
 
-.menu{
+/*.menu{
   vertical-align: top;
   display: inline-block;
   width: 1200px;
   height: 100px;
   background-color: #FFF;
   margin: 10px 10px 10px 10px;
-}
+}*/
 
 
 
@@ -394,19 +394,20 @@ ul.footerMenu{
   /*align-items: top;* для выравнивания по высоте*/
   justify-content: center;
 
-  margin: 65px 0px 60px 0px;
+  margin: 65px 0px 55px 0px;
 }
 
 .headName{
+  text-align: center;
   position: relative;
   font-size: 22px;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   letter-spacing:3px;
 
-  display: flex;
-  /*align-items: top;* для выравнивания по высоте*/
-  justify-content: center;
+  /*display: flex;
+  align-items: top;* для выравнивания по высоте
+  justify-content: center;*/
 
   margin-bottom: 45px
 }
@@ -424,5 +425,7 @@ ul.footerMenu{
 
 
   border: 1px solid #afa376;
-
+}
+.noBorder{
+  border: none;
 }
